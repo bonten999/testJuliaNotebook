@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: JuliaNotes
-author: .
+author: Hiromichi Suzuki
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -30,12 +30,13 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
- #変な日本語になるので変更 
-  extra_footer: |
-    <p>
-     （C)2022 Hiromichi Suzuki
-    </p>
+ # #変な日本語になるので変更 
+ #  extra_footer: |
+ #    <p>
+ #     （C)2022 Hiromichi Suzuki
+ #    </p>
 sphinx:
   config:
-    html_show_copyright: false
+    language: ja　　
+    html_show_copyright: true
 
